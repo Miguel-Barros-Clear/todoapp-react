@@ -1,11 +1,14 @@
-import React from "react";
-
 require("bootstrap/dist/css/bootstrap.min.css");
 require("font-awesome/css/font-awesome.min.css");
 
+import React from "react";
+import Todo from "../todo/todo";
+import About from "../about/about";
+
 const App = (props) => (
   <div className="container">
-    <h1>Teste</h1>
+    <Todo />
+    <About />
   </div>
 );
 export default App;
