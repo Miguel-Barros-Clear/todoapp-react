@@ -1,16 +1,13 @@
-require("bootstrap/dist/css/bootstrap.min.css");
-require("font-awesome/css/font-awesome.min.css");
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 
 import React from "react";
-import Todo from "../todo/todo";
-import About from "../about/about";
 import Menu from "../template/menu";
+import Routes from "./routes";
 
-const App = (props) => (
+export default (props) => (
   <div className="container">
     <Menu />
-    <Todo />
-    <About />
+    <Routes />
   </div>
 );
-export default App;
